@@ -11,6 +11,9 @@
   </head>
 
   <body>
+  <nav style="display: flex; justify-content: space-between"><%= link_to "Wikinimous", articles_path %> <%= link_to "New article", new_article_path %></nav>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>
